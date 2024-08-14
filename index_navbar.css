@@ -1,0 +1,120 @@
+.admin-navbar {
+  background: linear-gradient(45deg, #0d3b66, #faf0ca);
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  color: #faf0ca;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #f25c54;
+}
+
+.navbar-form {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-button {
+  background-color: #f25c54;
+  color: #faf0ca;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 25px;
+}
+
+.nav-button:hover {
+  background-color: #0d3b66;
+  transform: scale(1.05);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #faf0ca;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f25c54;
+  color: #0d3b66;
+}
+
+.logout {
+  background-color: #f25c54;
+  color: #faf0ca;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.logout:hover {
+  background-color: #0d3b66;
+  color: #faf0ca;
+}
+
+.custom-footer {
+  background: linear-gradient(45deg, #0d3b66, #faf0ca);
+  color: #faf0ca;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.footer-author {
+  font-weight: bold;
+  margin-top: 5px;
+  color: rgb(82, 81, 80);
+  transition: color 0.3s ease;
+}
+
+.footer-author:hover {
+  color: rgba(13, 59, 102, 1);
+}
+
+@media (max-width: 768px) {
+  .footer-content p {
+    font-size: 1em;
+  }
+}
